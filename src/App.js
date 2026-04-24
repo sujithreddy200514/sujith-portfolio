@@ -9,8 +9,9 @@ import Awards from "./pages/Awards";
 
 export default function App() {
   useEffect(() => {
+    const imageUrl = `${process.env.PUBLIC_URL}/space.jpg`;
     document.body.style.backgroundImage =
-      "linear-gradient(rgba(7, 10, 30, 0.55), rgba(7, 10, 30, 0.55)), url('/space.jpg')";
+      `linear-gradient(rgba(7, 10, 30, 0.55), rgba(7, 10, 30, 0.55)), url('${imageUrl}')`;
   }, []);
 
   return (
