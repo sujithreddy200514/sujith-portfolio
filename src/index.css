@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #f0f0f0;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a1a3e 50%, #0d1b2a 100%);
+  background: linear-gradient(rgba(7, 10, 30, 0.35), rgba(7, 10, 30, 0.35)), url('./assets/space.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

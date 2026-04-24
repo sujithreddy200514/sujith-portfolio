@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -8,12 +7,6 @@ import Education from "./pages/Education";
 import Awards from "./pages/Awards";
 
 export default function App() {
-  useEffect(() => {
-    const imageUrl = `${process.env.PUBLIC_URL}/space.jpg`;
-    document.body.style.backgroundImage =
-      `linear-gradient(rgba(7, 10, 30, 0.55), rgba(7, 10, 30, 0.55)), url('${imageUrl}')`;
-  }, []);
-
   return (
     <Router>
       <Navbar />
