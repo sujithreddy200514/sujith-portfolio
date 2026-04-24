@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1a3e 50%, #0d1b2a 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 0 0 30px #00d9ff;
+  letter-spacing: 2px;
+}
+
+.hero-sub {
+  color: #00d9ff;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.contact-links {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.contact-links a {
+  color: #00d9ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.section {
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00d9ff;
+  margin-bottom: 30px;
+  text-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+}
+
+.card {
+  background: rgba(0,0,0,0.5);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 4px solid #00d9ff;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  background: rgba(0,0,0,0.7);
+  transform: translateX(10px);
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #00d9ff;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.card p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background: #00d9ff;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00d9ff;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.section-divider {
+  padding: 40px 0 20px 0;
+}
+
+.section-divider h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00d9ff;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+}
